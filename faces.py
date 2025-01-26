@@ -29,7 +29,7 @@ def main():
 
         #draw rectangles around the detected faces
         for (x, y, w, h) in faces:
-            cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
+            cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 2)
 
         # Display the original and processed frames
         cv2.imshow('Original', frame)
